@@ -1,0 +1,26 @@
+/*#apDiv2 {
+     /*width="194" height="47"
+	position:fixed;
+	width:200px;
+	height:100%;
+	z-index:99;
+	left: -1px;
+	margin:30% 0 0 -1px;
+	
+}*/
+@media (min-width:500px){
+    #logozap{
+      bottom:58vh;  
+    }
+}
+
+
+#logozap{
+    position:fixed;
+    left:89%;
+    bottom:10vh;
+    
+    width:120px;
+	height:120px;
+}
+
