@@ -15,12 +15,15 @@ body{
     font-family: 'Source Serif Pro', sans-serif;
 
 }
-
+.title{
+    color:#018DD7;
+}
 a{
     text-decoration:none;
     color:inherit;
     
 }
+
 
 /*CABEÇALHO ===========*/
 
