@@ -151,7 +151,7 @@ footer{
 }
 /*RESPONSIVIDADE ================*/
 
-@media (max-width:420px){
+@media (max-width:500px){
     nav{
         flex-direction: column;
         position:fixed;
