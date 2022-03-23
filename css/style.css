@@ -31,6 +31,7 @@ header{
     margin:0;
     padding:0;
     box-sizing:border-box; 
+    overflow:hidden;
 }
 #div-top-image{
     display:flex;
@@ -40,8 +41,7 @@ header{
     
 }
 #top-image{
-    display:flex;
-    width:100vw;
+    width:100%;
 
 }
 
@@ -91,31 +91,6 @@ nav ul li{
 .borda{
     border-right:1px solid rgba(51, 51, 51, 0.623); 
 }
-/*PRINCIPAL ======================*/
-
-#div-slider{
-    width:100%;
-    height:90px;
-    margin:0 0 30vw 0;
-}
-#div-slider img{
-    width:100%;
-}
-
-#div-servicos{
-    width:100%;
-    
-}
-#servicos{
-    width:100%;
-}
-
-#whats-logo{
-    bottom:0;
-    right:0;
-    width:10vw;
-    position:fixed;
-}
 
 /*RODAPÉ ========================*/
 footer{
@@ -148,5 +123,12 @@ footer{
 }
 #div-copyright a{
     font-weight:bold;
+}
+
+#whats-logo{
+    bottom:0;
+    right:1%;
+    width:10vw;
+    position:fixed;
 }
 /*RESPONSIVIDADE ================*/
